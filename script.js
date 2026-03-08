@@ -1,8 +1,20 @@
-const menuBtn=document.getElementById("menuBtn");
-const nav=document.getElementById("nav");
+window.addEventListener("scroll", function(){
 
-menuBtn.onclick=function(){
+let cards = document.querySelectorAll(".card");
 
-nav.classList.toggle("active");
+cards.forEach(function(card){
+
+let position = card.getBoundingClientRect().top;
+
+let screen = window.innerHeight;
+
+if(position < screen){
+
+card.style.opacity = "1";
+card.style.transform = "translateY(0px)";
 
 }
+
+});
+
+});
