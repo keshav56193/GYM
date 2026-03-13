@@ -1,107 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>IronCore Gym</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONYX ELITE | Premium Fitness Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand">ONYX<span>ELITE</span></a>
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#membership">Membership</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#membership" class="btn btn-primary">Get Started</a>
+    </div>
+  </header>
 
-<header>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Luxury Performance Club</p>
+          <h1>Train Like an Athlete. Recover Like Royalty.</h1>
+          <p>
+            ONYX ELITE is a premium gym experience combining world-class coaching,
+            cutting-edge equipment, and a members-only wellness lounge.
+          </p>
+          <div class="hero-actions">
+            <a href="#membership" class="btn btn-primary">Join Elite</a>
+            <a href="#programs" class="btn btn-secondary">Explore Programs</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h2>Performance Snapshot</h2>
+          <ul>
+            <li><strong>15+</strong> Certified Strength Coaches</li>
+            <li><strong>24/7</strong> Private Member Access</li>
+            <li><strong>6</strong> Specialized Training Zones</li>
+            <li><strong>4.9/5</strong> Rated by 2,000+ members</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
 
-<h1 class="logo">IronCore Gym</h1>
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About ONYX ELITE</p>
+          <h2>A gym designed for transformation and lifestyle.</h2>
+          <p>
+            From high-performance training floors to our infrared recovery suite,
+            every detail is engineered to help you perform at your highest level.
+            Whether your goal is strength, aesthetics, or athletic conditioning,
+            our coaching system adapts to your journey.
+          </p>
+        </div>
+        <div class="stats-grid">
+          <article>
+            <h3>12,000+</h3>
+            <p>sq ft of premium training space</p>
+          </article>
+          <article>
+            <h3>98%</h3>
+            <p>member retention rate year over year</p>
+          </article>
+          <article>
+            <h3>50+</h3>
+            <p>small-group sessions every week</p>
+          </article>
+          <article>
+            <h3>1:1</h3>
+            <p>personalized coaching support</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<nav>
+    <section id="programs" class="section programs">
+      <div class="container">
+        <p class="eyebrow">Signature Programs</p>
+        <h2>Built for ambitious results.</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Elite Strength</h3>
+            <p>Progressive overload system focused on power, physique, and performance.</p>
+          </article>
+          <article class="card">
+            <h3>Hybrid Conditioning</h3>
+            <p>Blend cardio, endurance, and functional strength for all-around fitness.</p>
+          </article>
+          <article class="card">
+            <h3>Private Coaching</h3>
+            <p>Personalized plans, weekly check-ins, and nutrition guidance from experts.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="programs.html">Programs</a>
-<a href="membership.html">Membership</a>
-<a href="contact.html">Contact</a>
+    <section id="membership" class="section membership">
+      <div class="container">
+        <p class="eyebrow">Membership</p>
+        <h2>Choose your elite level.</h2>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Core</h3>
+            <p class="price">$59<span>/month</span></p>
+            <ul>
+              <li>Unlimited gym access</li>
+              <li>2 group classes/week</li>
+              <li>Fitness assessment</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Choose Core</a>
+          </article>
+          <article class="price-card featured">
+            <p class="tag">Most Popular</p>
+            <h3>Elite</h3>
+            <p class="price">$99<span>/month</span></p>
+            <ul>
+              <li>Everything in Core</li>
+              <li>Unlimited classes</li>
+              <li>Recovery lounge access</li>
+              <li>Monthly coach consultation</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Choose Elite</a>
+          </article>
+          <article class="price-card">
+            <h3>Black</h3>
+            <p class="price">$179<span>/month</span></p>
+            <ul>
+              <li>Everything in Elite</li>
+              <li>Weekly personal training</li>
+              <li>Custom meal planning</li>
+              <li>VIP concierge support</li>
+            </ul>
+            <a href="#contact" class="btn btn-secondary">Choose Black</a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-</nav>
-
-</header>
-
-
-<section class="hero">
-
-<div class="hero-content">
-
-<h2>Transform Your Body</h2>
-
-<p>Professional training environment with expert coaches.</p>
-
-<a href="membership.html" class="btn">Join Now</a>
-
-</div>
-
-</section>
-
-
-<section class="features">
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48">
-
-<h3>Modern Equipment</h3>
-
-<p>State of the art strength machines and free weights.</p>
-
-</div>
-
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438">
-
-<h3>Expert Trainers</h3>
-
-<p>Certified coaches helping you reach your goals.</p>
-
-</div>
-
-
-<div class="card">
-
-<img src="https://images.unsplash.com/photo-1518611012118-fd2b1d1d1c4b">
-
-<h3>Personal Training</h3>
-
-<p>Customized training and nutrition plans.</p>
-
-</div>
-
-</section>
-
-
-<section class="gallery">
-
-<img src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2">
-<img src="https://images.unsplash.com/photo-1571019613914-85f342c1d4b2">
-<img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b">
-<img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e">
-
-</section>
-
-
-<footer>
-
-<p>IronCore Gym - Rudrapur Uttarakhand</p>
-
-<p>Phone: +91 7500021991</p>
-
-</footer>
-
-
-<script src="script.js"></script>
-
+    <section id="contact" class="section contact">
+      <div class="container contact-wrap">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Book your complimentary club tour.</h2>
+          <p>Visit us at 220 Fitness Avenue, Downtown or call +1 (555) 902-1100.</p>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email Address" required>
+          <textarea rows="4" placeholder="Tell us your fitness goals"></textarea>
+          <button type="submit" class="btn btn-primary">Request Tour</button>
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
